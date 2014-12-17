@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D62F33511A414C1700BD88F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62F33501A414C1700BD88F7 /* AppDelegate.swift */; };
+		D62F33531A414C1700BD88F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62F33521A414C1700BD88F7 /* ViewController.swift */; };
+		D62F33561A414C1700BD88F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62F33541A414C1700BD88F7 /* Main.storyboard */; };
+		D62F33581A414C1700BD88F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62F33571A414C1700BD88F7 /* Images.xcassets */; };
+		D62F33671A414C1700BD88F7 /* YKParallaxHeaderViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62F33661A414C1700BD88F7 /* YKParallaxHeaderViewDemoTests.swift */; };
+		D62F33721A414D4F00BD88F7 /* YKParallaxHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62F33711A414D4F00BD88F7 /* YKParallaxHeaderView.swift */; };
+		D62F33741A415A1600BD88F7 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D62F33731A415A1600BD88F7 /* image.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D62F33611A414C1700BD88F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62F33431A414C1700BD88F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62F334A1A414C1700BD88F7;
+			remoteInfo = YKParallaxHeaderViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D62F334B1A414C1700BD88F7 /* YKParallaxHeaderViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKParallaxHeaderViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62F334F1A414C1700BD88F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62F33501A414C1700BD88F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D62F33521A414C1700BD88F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D62F33551A414C1700BD88F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D62F33571A414C1700BD88F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D62F33601A414C1700BD88F7 /* YKParallaxHeaderViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKParallaxHeaderViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62F33651A414C1700BD88F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62F33661A414C1700BD88F7 /* YKParallaxHeaderViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKParallaxHeaderViewDemoTests.swift; sourceTree = "<group>"; };
+		D62F33711A414D4F00BD88F7 /* YKParallaxHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YKParallaxHeaderView.swift; path = YKParallaxHeaderView/YKParallaxHeaderView.swift; sourceTree = "<group>"; };
+		D62F33731A415A1600BD88F7 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D62F33481A414C1700BD88F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62F335D1A414C1700BD88F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D62F33421A414C1700BD88F7 = {
+			isa = PBXGroup;
+			children = (
+				D62F33701A414D2300BD88F7 /* YKParallaxHeaderView */,
+				D62F334D1A414C1700BD88F7 /* YKParallaxHeaderViewDemo */,
+				D62F33631A414C1700BD88F7 /* YKParallaxHeaderViewDemoTests */,
+				D62F334C1A414C1700BD88F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D62F334C1A414C1700BD88F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D62F334B1A414C1700BD88F7 /* YKParallaxHeaderViewDemo.app */,
+				D62F33601A414C1700BD88F7 /* YKParallaxHeaderViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D62F334D1A414C1700BD88F7 /* YKParallaxHeaderViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D62F33501A414C1700BD88F7 /* AppDelegate.swift */,
+				D62F33521A414C1700BD88F7 /* ViewController.swift */,
+				D62F33541A414C1700BD88F7 /* Main.storyboard */,
+				D62F33571A414C1700BD88F7 /* Images.xcassets */,
+				D62F33731A415A1600BD88F7 /* image.jpg */,
+				D62F334E1A414C1700BD88F7 /* Supporting Files */,
+			);
+			path = YKParallaxHeaderViewDemo;
+			sourceTree = "<group>";
+		};
+		D62F334E1A414C1700BD88F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D62F334F1A414C1700BD88F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D62F33631A414C1700BD88F7 /* YKParallaxHeaderViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D62F33661A414C1700BD88F7 /* YKParallaxHeaderViewDemoTests.swift */,
+				D62F33641A414C1700BD88F7 /* Supporting Files */,
+			);
+			path = YKParallaxHeaderViewDemoTests;
+			sourceTree = "<group>";
+		};
+		D62F33641A414C1700BD88F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D62F33651A414C1700BD88F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D62F33701A414D2300BD88F7 /* YKParallaxHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				D62F33711A414D4F00BD88F7 /* YKParallaxHeaderView.swift */,
+			);
+			name = YKParallaxHeaderView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D62F334A1A414C1700BD88F7 /* YKParallaxHeaderViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62F336A1A414C1700BD88F7 /* Build configuration list for PBXNativeTarget "YKParallaxHeaderViewDemo" */;
+			buildPhases = (
+				D62F33471A414C1700BD88F7 /* Sources */,
+				D62F33481A414C1700BD88F7 /* Frameworks */,
+				D62F33491A414C1700BD88F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKParallaxHeaderViewDemo;
+			productName = YKParallaxHeaderViewDemo;
+			productReference = D62F334B1A414C1700BD88F7 /* YKParallaxHeaderViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D62F335F1A414C1700BD88F7 /* YKParallaxHeaderViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62F336D1A414C1700BD88F7 /* Build configuration list for PBXNativeTarget "YKParallaxHeaderViewDemoTests" */;
+			buildPhases = (
+				D62F335C1A414C1700BD88F7 /* Sources */,
+				D62F335D1A414C1700BD88F7 /* Frameworks */,
+				D62F335E1A414C1700BD88F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62F33621A414C1700BD88F7 /* PBXTargetDependency */,
+			);
+			name = YKParallaxHeaderViewDemoTests;
+			productName = YKParallaxHeaderViewDemoTests;
+			productReference = D62F33601A414C1700BD88F7 /* YKParallaxHeaderViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D62F33431A414C1700BD88F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yoshiki Kurihara";
+				TargetAttributes = {
+					D62F334A1A414C1700BD88F7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D62F335F1A414C1700BD88F7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D62F334A1A414C1700BD88F7;
+					};
+				};
+			};
+			buildConfigurationList = D62F33461A414C1700BD88F7 /* Build configuration list for PBXProject "YKParallaxHeaderViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D62F33421A414C1700BD88F7;
+			productRefGroup = D62F334C1A414C1700BD88F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D62F334A1A414C1700BD88F7 /* YKParallaxHeaderViewDemo */,
+				D62F335F1A414C1700BD88F7 /* YKParallaxHeaderViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D62F33491A414C1700BD88F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62F33561A414C1700BD88F7 /* Main.storyboard in Resources */,
+				D62F33581A414C1700BD88F7 /* Images.xcassets in Resources */,
+				D62F33741A415A1600BD88F7 /* image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62F335E1A414C1700BD88F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D62F33471A414C1700BD88F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62F33721A414D4F00BD88F7 /* YKParallaxHeaderView.swift in Sources */,
+				D62F33531A414C1700BD88F7 /* ViewController.swift in Sources */,
+				D62F33511A414C1700BD88F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62F335C1A414C1700BD88F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62F33671A414C1700BD88F7 /* YKParallaxHeaderViewDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D62F33621A414C1700BD88F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62F334A1A414C1700BD88F7 /* YKParallaxHeaderViewDemo */;
+			targetProxy = D62F33611A414C1700BD88F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D62F33541A414C1700BD88F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D62F33551A414C1700BD88F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D62F33681A414C1700BD88F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D62F33691A414C1700BD88F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D62F336B1A414C1700BD88F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKParallaxHeaderViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D62F336C1A414C1700BD88F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKParallaxHeaderViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D62F336E1A414C1700BD88F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YKParallaxHeaderViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKParallaxHeaderViewDemo.app/YKParallaxHeaderViewDemo";
+			};
+			name = Debug;
+		};
+		D62F336F1A414C1700BD88F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YKParallaxHeaderViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKParallaxHeaderViewDemo.app/YKParallaxHeaderViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D62F33461A414C1700BD88F7 /* Build configuration list for PBXProject "YKParallaxHeaderViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62F33681A414C1700BD88F7 /* Debug */,
+				D62F33691A414C1700BD88F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62F336A1A414C1700BD88F7 /* Build configuration list for PBXNativeTarget "YKParallaxHeaderViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62F336B1A414C1700BD88F7 /* Debug */,
+				D62F336C1A414C1700BD88F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62F336D1A414C1700BD88F7 /* Build configuration list for PBXNativeTarget "YKParallaxHeaderViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62F336E1A414C1700BD88F7 /* Debug */,
+				D62F336F1A414C1700BD88F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D62F33431A414C1700BD88F7 /* Project object */;
+}
