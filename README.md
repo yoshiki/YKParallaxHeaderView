@@ -3,7 +3,7 @@ YKParallaxHeaderView
 
 YKParallaxHeaderView is parallax header view for UITableview written in Swift.
 
-![](movie.mov)
+![](movie.gif)
 
 Installation
 =================
